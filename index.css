@@ -21,8 +21,7 @@ body{
 .snippet{
     margin-left: 25%;
     background-color: rgba(244, 234, 227, 0.7);
-    
-    box-shadow: black;
+    box-shadow: 2px 5px 10px black;
     /*background-color: rgb(240, 128, 87);*/
     text-align: center;
     border-radius: 15px;

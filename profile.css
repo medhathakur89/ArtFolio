@@ -1,0 +1,48 @@
+body{
+    background-image: url('Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #FFDDAD;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+}
+.links{
+    /*background-color: rgb(15, 15, 15);
+    border-radius: 5px;*/
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    float: right;
+}
+a{
+    color: rgb(230, 104, 42);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.text{
+    color: rgb(223, 136, 93);
+    text-align: right;
+    font-family: 'Sacramento', cursive;
+    font-size: 85px;
+}
+.form{
+    background-color: rgba(215, 205, 198, 0.5);
+    font-family: 'Tinos', serif;
+    box-shadow: 2px 5px 10px black;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 5%;
+    max-width: 25%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.post{
+    background-color: rgba(215, 205, 198, 0.5);
+    box-shadow: 2px 5px 10px black;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 20%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
