@@ -1,28 +1,20 @@
 body {
-  background-image: url("Background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: #ffddad;
-  /*font-family: 'Nanum Gothic', sans-serif;*/
+  background-color: 3CAEA3;
 }
-.links {
-  /*background-color: rgb(15, 15, 15);
-    border-radius: 5px;*/
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 17px;
-  padding-right: 17px;
-  float: right;
+.row {
+  --bs-gutter-x: 0rem;
 }
-.search {
-  text-align: center;
-  color: aliceblue;
+nav {
+  padding-left: 2%;
+  padding-right: 1%;
+  font-family: "Titillium Web", sans-serif;
 }
+/*
 .snippet {
   margin-left: 25%;
   background-color: rgba(244, 234, 227, 0.7);
   box-shadow: 2px 5px 10px black;
-  /*background-color: rgb(240, 128, 87);*/
+  background-color: rgb(240, 128, 87);
   text-align: center;
   border-radius: 15px;
   max-width: 50%;
@@ -30,21 +22,4 @@ body {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-tr {
-  margin-left: 2%;
-}
-table {
-  text-align: center;
-}
-/*.table{
-    background-color: antiquewhite;
-    border-width: 5px;
-    border-radius: 5px;
-    text-align: center;
-    max-width: 50%;
-}*/
-a {
-  color: rgb(230, 104, 42);
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-}
+*/
