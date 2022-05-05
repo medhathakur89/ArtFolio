@@ -1,5 +1,5 @@
 body {
-  background-color: 3CAEA3;
+  background-color: #3CAEA3;
 }
 
 /* Navbar Styling */
@@ -16,19 +16,23 @@ nav {
   font-family: "Titillium Web", sans-serif;
   margin-top: 3%;
   margin-bottom: 3%;
+  max-width: 90%;
+  background-color: rgba(244, 234, 227, 0.7);
+  border-radius: 15px;
+  padding: 2%;
+  padding-bottom: 0.1%;
+  margin: 3% 5% 2% 5%;
 }
 
 /* Row Styling in grid layout */
 .row {
   --bs-gutter-x: 0rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 /* Grid Styling */
 .snippet {
-  background-color: rgba(244, 234, 227, 0.5);
+  background-color: rgba(244, 234, 227, 0.7);
   box-shadow: 2px 5px 10px black;
   text-align: center;
   padding-left: 2%;
@@ -41,3 +45,31 @@ nav {
   margin-top: 10%;
 } 
 
+/* .description {
+  margin: 4% auto;
+  text-align: center;
+  background-color: rgba(244, 234, 227, 0.7);
+  border-radius: 15px;
+  padding: 2%;
+} */
+.select {
+  display: flex;
+  justify-content: end;
+  
+}
+
+.select-text {
+  padding-top: 3px;
+  padding-right: 10px;
+}
+
+.form-select{
+  width: 40%;
+  padding: 0.5%;
+}
+
+.display{
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
