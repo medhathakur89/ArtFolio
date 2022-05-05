@@ -1,5 +1,5 @@
 body {
-  background-color: #3CAEA3;
+  background-color: #3caea3;
 }
 
 /* Navbar Styling */
@@ -10,7 +10,7 @@ nav {
 }
 
 /* Search Bar Styling */
-.search{
+.search {
   text-align: center;
   min-width: 20%;
   font-family: "Titillium Web", sans-serif;
@@ -43,7 +43,7 @@ nav {
   margin-bottom: 10%;
   margin-right: 10%;
   margin-top: 10%;
-} 
+}
 
 /* .description {
   margin: 4% auto;
@@ -55,7 +55,6 @@ nav {
 .select {
   display: flex;
   justify-content: end;
-  
 }
 
 .select-text {
@@ -63,13 +62,12 @@ nav {
   padding-right: 10px;
 }
 
-.form-select{
+.form-select {
   width: 40%;
   padding: 0.5%;
 }
 
-.display{
+.display {
   margin-left: 5%;
   margin-right: 5%;
-  
 }
