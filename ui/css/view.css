@@ -1,31 +1,13 @@
 body {
-  background-image: url("Background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: #ffddad;
-}
-
-.links {
-  /*background-color: rgb(15, 15, 15);
-        border-radius: 5px;*/
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 17px;
-  padding-right: 17px;
-  float: right;
-}
-
-a {
-  font-size: 150%;
-  text-decoration-line: none;
+  background-color: #3caea3;
 }
 
 .description {
-  margin: 4% auto;
+  margin: 3% auto;
   text-align: center;
   background-color: rgba(244, 234, 227, 0.7);
   border-radius: 15px;
-  padding: 2%;
+  padding: 2% 2% 1% 2%;
 }
 
 .col-text-size {
