@@ -1,41 +1,58 @@
 body {
-  background-image: url("Background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: #ffddad;
-  /*font-family: 'Nanum Gothic', sans-serif;*/
+  background-color: #3caea3;
 }
-.links {
-  /*background-color: rgb(15, 15, 15);
-    border-radius: 5px;*/
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 17px;
-  padding-right: 17px;
-  float: right;
-}
-a {
-  color: rgb(230, 104, 42);
+
+/* Navbar Styling */
+nav {
+  padding-left: 2%;
+  padding-right: 1%;
   font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
 }
+
+/* Row Styling in grid layout */
+.row {
+  --bs-gutter-x: 0rem;
+  margin-bottom: 2%;
+}
+
+/* Grid Styling */
+.snippet {
+  background-color: rgba(244, 234, 227, 0.7);
+  box-shadow: 2px 5px 10px black;
+  text-align: center;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 15px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+/* Heading Styling */
 .text {
-  color: rgb(223, 136, 93);
+  color: black;
   text-align: right;
   font-family: "Sacramento", cursive;
   font-size: 85px;
 }
+
 .form {
-  background-color: rgba(215, 205, 198, 0.5);
-  font-family: "Tinos", serif;
+  background-color: rgba(244, 234, 227, 0.7);
+  max-width: 25%;
+  border-radius: 15px;
   box-shadow: 2px 5px 10px black;
   text-align: center;
-  border-radius: 15px;
   margin-left: 5%;
-  max-width: 25%;
-  padding-top: 2%;
-  padding-bottom: 1%;
+  padding: 2%;
+  font-family: 'Gentium Basic', serif;
+  /* font-family: "Tinos", serif;
+   */
 }
+
+/* 
+
 .post {
   background-color: rgba(215, 205, 198, 0.5);
   box-shadow: 2px 5px 10px black;
@@ -48,4 +65,4 @@ a {
   margin-bottom: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-}
+} */
